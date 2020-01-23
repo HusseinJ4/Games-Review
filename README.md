@@ -12,14 +12,18 @@ User requirements
 
 
 
-Systems Analysis/Coordinator Role
+
+Systems Analysis/Coordinator Role (Tarun)
 
 
 
 
 
 
-Developer Role
+
+
+
+Developer Role(Hussein, Ranitha)
 
 
 
