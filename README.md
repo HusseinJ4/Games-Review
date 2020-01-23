@@ -5,3 +5,24 @@ Building a games review website, built using the MVC Framework within Visual Stu
 
 
 User requirements
+
+
+
+
+
+
+
+Systems Analysis/Coordinator Role
+
+
+
+
+
+
+Developer Role
+
+
+
+
+
+
