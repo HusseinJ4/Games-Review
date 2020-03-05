@@ -8,7 +8,7 @@ namespace GamesReview.Controllers
 {
     public class ShopController : Controller
     {
-        // GET: Shop
+        // GET: The Shop
         public ActionResult Index()
         {
             return View("Shop Index");
