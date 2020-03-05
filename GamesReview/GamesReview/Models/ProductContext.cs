@@ -18,7 +18,10 @@ namespace GamesReview.Models
         public ProductContext() : base("name=ProductContext")
         {
         }
-
         public System.Data.Entity.DbSet<GamesReview.Models.Product> Products { get; set; }
+
+        public System.Data.Entity.DbSet<GamesReview.Models.GamesReviews> GamesReviews { get; set; }
+
+        public System.Data.Entity.DbSet<GamesReview.Models.Category> Categories { get; set; }
     }
 }

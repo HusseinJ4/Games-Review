@@ -10,109 +10,107 @@ using GamesReview.Models;
 
 namespace GamesReview.Controllers
 {
-    public class ProductsController : Controller
+    public class GamesReviewsController : Controller
     {
         private ProductContext db = new ProductContext();
 
-        // GET: Products
+        // GET: GamesReviews
         public ActionResult Index()
         {
-            return View(db.Products.ToList());
+            return View(db.GamesReviews.ToList());
         }
 
-        // GET: Products/Details/5
+        // GET: GamesReviews/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Product product = db.Products.Find(id);
-            if (product == null)
+            GamesReviews gamesReviews = db.GamesReviews.Find(id);
+            if (gamesReviews == null)
             {
                 return HttpNotFound();
             }
-            return View(product);
+            return View(gamesReviews);
         }
 
-        // GET: Products/Create
+        // GET: GamesReviews/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Products/Create
+        // POST: GamesReviews/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ProductID,CategoryID,Name,Description,Price,EmbedLink")] Product product)
+        public ActionResult Create([Bind(Include = "GamesReviewsId,Comments,Ranking")] GamesReviews gamesReviews)
         {
             if (ModelState.IsValid)
             {
-                db.Products.Add(product);
+                db.GamesReviews.Add(gamesReviews);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(product);
+            return View(gamesReviews);
         }
 
-        // GET: Products/Edit/5
+        // GET: GamesReviews/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Product product = db.Products.Find(id);
-            if (product == null)
+            GamesReviews gamesReviews = db.GamesReviews.Find(id);
+            if (gamesReviews == null)
             {
                 return HttpNotFound();
             }
-            return View(product);
+            return View(gamesReviews);
         }
 
-     
-
-        // POST: Products/Edit/5
+        // POST: GamesReviews/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ProductID,CategoryID,Name,Description,Price,EmbedLink")] Product product)
+        public ActionResult Edit([Bind(Include = "GamesReviewsId,Comments,Ranking")] GamesReviews gamesReviews)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(product).State = EntityState.Modified;
+                db.Entry(gamesReviews).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(product);
+            return View(gamesReviews);
         }
 
-        // GET: Products/Delete/5
+        // GET: GamesReviews/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Product product = db.Products.Find(id);
-            if (product == null)
+            GamesReviews gamesReviews = db.GamesReviews.Find(id);
+            if (gamesReviews == null)
             {
                 return HttpNotFound();
             }
-            return View(product);
+            return View(gamesReviews);
         }
 
-        // POST: Products/Delete/5
+        // POST: GamesReviews/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Product product = db.Products.Find(id);
-            db.Products.Remove(product);
+            GamesReviews gamesReviews = db.GamesReviews.Find(id);
+            db.GamesReviews.Remove(gamesReviews);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

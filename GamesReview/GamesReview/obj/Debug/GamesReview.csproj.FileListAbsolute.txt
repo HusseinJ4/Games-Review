@@ -98,7 +98,6 @@ E:\GamesReviewWebsite\GamesReview\GamesReview\bin\Microsoft.Owin.Security.Twitte
 E:\GamesReviewWebsite\GamesReview\GamesReview\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\GamesReviewWebsite\GamesReview\GamesReview\bin\Microsoft.Owin.Security.OAuth.xml
 E:\GamesReviewWebsite\GamesReview\GamesReview\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\GamesReviewWebsite\GamesReview\GamesReview\obj\Debug\GamesReview.csprojAssemblyReference.cache
 E:\GamesReviewWebsite\GamesReview\GamesReview\obj\Debug\GamesReview.csproj.CoreCompileInputs.cache
 E:\GamesReviewWebsite\GamesReview\GamesReview\obj\Debug\GamesReview.csproj.CopyComplete
 E:\GamesReviewWebsite\GamesReview\GamesReview\obj\Debug\GamesReview.dll
@@ -208,3 +207,4 @@ F:\GamesReviewWebsite\GamesReview\GamesReview\obj\Debug\GamesReview.csproj.CoreC
 F:\GamesReviewWebsite\GamesReview\GamesReview\obj\Debug\GamesReview.csproj.CopyComplete
 F:\GamesReviewWebsite\GamesReview\GamesReview\obj\Debug\GamesReview.dll
 F:\GamesReviewWebsite\GamesReview\GamesReview\obj\Debug\GamesReview.pdb
+E:\GamesReviewWebsite\GamesReview\GamesReview\obj\Debug\GamesReview.csprojAssemblyReference.cache

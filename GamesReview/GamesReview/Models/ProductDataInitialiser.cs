@@ -15,7 +15,6 @@ namespace GamesReview.Models
 
             cat1.CategoryID =  1;
             cat1.Name = "Desktop Games";
-            cat1.Description = "The last of us ";
             
 
         }

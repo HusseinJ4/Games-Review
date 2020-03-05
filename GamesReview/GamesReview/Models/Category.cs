@@ -10,7 +10,5 @@ namespace GamesReview.Models
         public virtual int CategoryID { get; set; }
 
         public virtual string Name { get; set; }
-
-        public virtual string Description { get; set; }
     }
 }
