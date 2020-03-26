@@ -1,0 +1,42 @@
+﻿@model GamesReview.Models.GamesReviews
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+    <div>
+        <h4>GamesReviews</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Comments)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Comments)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Ranking)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Ranking)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.GamesReviewsId }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

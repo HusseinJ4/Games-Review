@@ -1,0 +1,47 @@
+﻿@model IEnumerable<GamesReview.Models.GamesReviews>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LeagueTable</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Comments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ranking)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ranking)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.GamesReviewsId }) |
+                @Html.ActionLink("Details", "Details", new { id=item.GamesReviewsId }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.GamesReviewsId })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

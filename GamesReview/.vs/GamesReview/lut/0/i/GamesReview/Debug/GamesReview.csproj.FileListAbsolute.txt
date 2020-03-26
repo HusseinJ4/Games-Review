@@ -1,0 +1,5 @@
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\b\GamesReview\bin\GamesReview.dll.config
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\b\GamesReview\bin\GamesReview.dll
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\i\GamesReview\Debug\GamesReview.csproj.CoreCompileInputs.cache
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\i\GamesReview\Debug\GamesReview.csproj.CopyComplete
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\i\GamesReview\Debug\GamesReview.dll

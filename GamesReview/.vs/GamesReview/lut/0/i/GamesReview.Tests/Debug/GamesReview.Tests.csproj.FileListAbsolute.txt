@@ -1,0 +1,9 @@
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\b\GamesReview.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\b\GamesReview.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\b\GamesReview.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\b\GamesReview.Tests\bin\Debug\GamesReview.Tests.dll.config
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\b\GamesReview.Tests\bin\Debug\GamesReview.Tests.dll
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\i\GamesReview.Tests\Debug\GamesReview.Tests.csprojAssemblyReference.cache
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\i\GamesReview.Tests\Debug\GamesReview.Tests.csproj.CoreCompileInputs.cache
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\i\GamesReview.Tests\Debug\GamesReview.Tests.csproj.CopyComplete
+F:\GamesReviewWebsite\GamesReview\.vs\GamesReview\lut\0\i\GamesReview.Tests\Debug\GamesReview.Tests.dll
