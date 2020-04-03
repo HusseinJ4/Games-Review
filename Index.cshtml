@@ -1,63 +1,30 @@
-﻿@model IEnumerable<GamesReview.Models.Games>
-
-@{
-    ViewBag.Title = "Index";
+﻿@{
+    ViewBag.Title = "Home Page";
 }
 
-<h2>Index</h2>
+<div class="jumbotron">
+    <h1>Origin Games Review</h1>
+    <p class="lead">Origin Game Review is an entertainment website dedicated to video game-related news, previews and reviews.</p>
+    
+</div>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Developer)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Genre)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Rating)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ReleaseYear)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Summary)
-        </th>
-        <th></th>
-    </tr>
-
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Developer)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Genre)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Rating)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ReleaseYear)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Summary)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.GamesId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.GamesId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.GamesId })
-        </td>
-    </tr>
-}
-
-</table>
+<div class="row">
+    <div class="col-md-4">
+        <h2>DOOM Eternal – Official Launch Traile</h2>
+        <p>
+            There is only one dominant life form in this universe, and it carries a steel-barreled sword of vengeance.
+            Become the Slayer and hunt Hell’s armies to the far reaches of the earth and beyond. The only thing they fear… is YOU.
+        </p>
+        <p><a class="btn btn-default" href="https://www.youtube.com/watch?v=_UuktemkCFI">Watch Trailer &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>The Last of Us Part II</h2>
+        <p>The Last of Us Part II is an upcoming action-adventure game developed by Naughty Dog and published by Sony Interactive Entertainment for the PlayStation 4.</p>
+        <p><a class="btn btn-default" href="https://www.youtube.com/watch?v=zaESR_myx08">Watch Trailer &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Animal Crossing: New Horizons</h2>
+        <p>In Animal Crossing: New Horizons, start fresh on a deserted island and enjoy a peaceful existence full of creativity, freedom, and charm as you roll up your sleeves and make your new life whatever you want it to be.</p>
+        <p><a class="btn btn-default" href="https://www.youtube.com/watch?v=_3YNL0OWio0">Watch Trailer &raquo;</a></p>
+    </div>
+</div>
